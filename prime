@@ -1,9 +1,9 @@
 function prime (num){
-let fact=0
+let factor=0
 for(let i=1;i<=num;i++)
   {
-    if(num%i0){
-      fact++
+    if(num%i==0){
+      facort++
     }
   }
 if(fact2)
@@ -19,9 +19,9 @@ for(let j=2;j<=10;j++)
   let ans=prime(j)
     if(ans==true)
     {
-      console.log(j,"is a prime")
+      console.log(j,"is a prime no")
     }
     else{
-       console.log(j,"is a not prime")
+       console.log(j,"is a not prime no")
     }
   }
