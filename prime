@@ -1,0 +1,27 @@
+function prime (num){
+let fact=0
+for(let i=1;i<=num;i++)
+  {
+    if(num%i0){
+      fact++
+    }
+  }
+if(fact2)
+{
+  return true
+}
+else{
+  return false
+}
+}
+for(let j=2;j<=10;j++)
+  {
+  let ans=prime(j)
+    if(ans==true)
+    {
+      console.log(j,"is a prime")
+    }
+    else{
+       console.log(j,"is a not prime")
+    }
+  }
