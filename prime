@@ -1,12 +1,12 @@
-function prime (num){
+function prime (number){
 let fact=0
-for(let i=1;i<=num;i++)
+for(let i=1;i<=number;i++)
   {
-    if(num%i0){
+    if(number%i==0){
       fact++
     }
   }
-if(fact2)
+if(fact==2)
 {
   return true
 }
@@ -16,8 +16,8 @@ else{
 }
 for(let j=2;j<=10;j++)
   {
-  let ans=prime(j)
-    if(ans==true)
+  let answer=prime(j)
+    if(answer==true)
     {
       console.log(j,"is a prime")
     }
